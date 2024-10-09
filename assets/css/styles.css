@@ -758,7 +758,7 @@ img {
     justify-content: center;
   }
 
-  .footer__content {
+  .footer__contact {
     grid-template-columns: 1fr;
     justify-items: center;
     row-gap: 1.5rem;
@@ -808,8 +808,8 @@ img {
   }
 
   .footer__contact {
-    grid-template-columns: repeat(3, max-content);
-    justify-content: space-between;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content:space-around;
     align-items: center;
   }
 
